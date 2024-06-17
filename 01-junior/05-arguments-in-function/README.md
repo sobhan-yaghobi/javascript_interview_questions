@@ -88,3 +88,27 @@ console.log(result) // Result => !?
   <summary>See Answer</summary>
   <p>The Answer is => 34</p> 
 </details>
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+function sum(firstNum, secondNum = 5) {
+  return firstNum + secondNum
+}
+
+const result = sum(7, null)
+const resultTwo = sum(8, undefined)
+
+console.log(result) // Result => !?
+console.log(resultTwo) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of result is => 7</p> 
+  <p>The Answer of resultTwo is => 13</p>
+
+- Tips : if write any type except `undefined` the `initial` number is not `working`
+</details>
