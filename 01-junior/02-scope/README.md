@@ -1,4 +1,4 @@
-# \# Scope
+# Scope
 
 - global
 - local
@@ -6,9 +6,7 @@
   - block
   - function
 
-<hr/>
-
-### Example 1
+## Example 1
 
 ```js
 //-1
@@ -35,7 +33,7 @@ function logger() {
 logger()
 ```
 
-### Example 2
+## Example 2
 
 ```js
 function logger() {
@@ -57,7 +55,7 @@ logger()
 <br/>
 <hr/>
 
-# \# Question & Challenge
+# Question & Challenge
 
 ### Question 1
 
