@@ -63,3 +63,28 @@ console.log(sum(3, 2, 1, 0)) // Result => !?
   <p>The Answer is => arguments is not defined</p> 
   <p>because arguments in <b>Arrow Function</b> is not defined , only access arguments is Normal Function</p>
 </details>
+
+### Question 2
+
+Whats the result of this code !?
+
+```js
+let result = 18
+
+function logger() {
+  inner()
+  return
+  function inner() {
+    result = 34
+  }
+}
+
+logger()
+
+console.log(result) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => 34</p> 
+</details>
