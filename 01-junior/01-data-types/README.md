@@ -15,7 +15,7 @@
 <hr/>
 <br/>
 
-## Truthy & Falsy Value
+# Truthy & Falsy Value
 
 | Boolean type's | values                                                                            | Description                                                              |
 | -------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -26,7 +26,7 @@
 <hr/>
 <br/>
 
-## Undefined vs Null
+# Undefined vs Null
 
 | Keyword   | Data type's                               | Arithmetic operations | Boolean value |
 | --------- | ----------------------------------------- | --------------------- | ------------- |
