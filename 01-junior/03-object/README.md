@@ -1,6 +1,6 @@
-# \# Object
+# Object
 
-## Have many ways to access `property` object !?
+### Have many ways to access `property` object !?
 
 ```js
 let user = {
@@ -17,7 +17,7 @@ const prop = "name"
 console.log(user[prop]) // Result => john
 ```
 
-## Have `remove` property form object !?
+### Have `remove` property form object !?
 
 ```js
 // -1
@@ -50,7 +50,7 @@ console.log(newProduct) // Result => {id: 1, name: 'laptop', price: 27000000}
 <br/>
 <hr/>
 
-# \# Question & Challenge
+# Question & Challenge
 
 ### Question 1
 
