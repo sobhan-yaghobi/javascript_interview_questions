@@ -100,15 +100,18 @@ function sum(firstNum, secondNum = 5) {
 
 const result = sum(7, null)
 const resultTwo = sum(8, undefined)
+const resultThree = sum(8, "D")
 
 console.log(result) // Result => !?
 console.log(resultTwo) // Result => !?
+console.log(resultThree) // Result => !?
 ```
 
 <details>
   <summary>See Answer</summary>
   <p>The Answer of result is => 7</p> 
   <p>The Answer of resultTwo is => 13</p>
+  <p>The Answer of resultThree is => 8D</p>
 
 - Tips : if write any type except `undefined` the `initial` number is not `working`
 </details>
