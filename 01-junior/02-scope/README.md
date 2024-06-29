@@ -81,3 +81,27 @@ console.log(result) // => !?
   <summary>See Answer</summary>
   <p>The Answer is => Elon musk</p> 
 </details>
+
+### Question 2
+
+Whats the result of this code !?
+
+```js
+let outside = 18
+
+if (outside) {
+  let inside = 34
+  ver name = "john"
+}
+
+const result = typeof inside
+
+console.log(result) // => !?
+console.log(name) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is result => undefined</p> 
+  <p>The Answer is name => john</p> 
+</details>
