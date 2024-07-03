@@ -34,3 +34,149 @@
 | Null      | `object` (but it considered as primitive) | null + 1 = `1`        | false         |
 
 - why the data type of null is object ? this issue is a `bug` that `appeared when` the were `developing Javascript` , and because a `large number` of project's and website's were developed with the same structure, other Javascript developers `could not fix` this bug `because` fixing this bug cause the to fail. `many sites fall`
+
+<br/>
+<hr/>
+<br/>
+
+# Question & Challenge
+
+### Question 1
+
+Whats the result of this code !?
+
+```js
+console.log(null == undefined) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => true</p>
+
+</details>
+
+<hr>
+
+### Question 2
+
+Whats the result of this code !?
+
+```js
+console.log(null === undefined) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => false</p>
+</details>
+
+<hr>
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+console.log(undefined && null) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => undefined</p>
+</details>
+
+<hr>
+
+### Question 4
+
+Whats the result of this code !?
+
+```js
+var value = null
+console.log(++value) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => 1</p>
+</details>
+
+<hr>
+
+### Question 5
+
+Whats the result of this code !?
+
+```js
+console.log(!!null) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => false</p>
+</details>
+
+<hr>
+
+### Question 6
+
+Whats the result of this code !?
+
+```js
+console.log(10 - null) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => 10</p>
+</details>
+
+<hr>
+
+### Question 7
+
+Whats the result of this code !?
+
+```js
+console.log(200 + undefined) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => NaN</p>
+  
+  - Tips : each Math method with undefined is equal to `NaN`
+</details>
+
+<hr>
+
+### Question 8
+
+Whats the result of this code !?
+
+```js
+var undefined = 10
+console.log(undefined) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => undefined</p>
+
+- Tips : undefined name is reserved
+</details>
+
+<hr>
+
+### Question 7
+
+Whats the result of this code !?
+
+```js
+console.log(200 + undefined) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => NaN</p>
+</details>
