@@ -31,3 +31,102 @@ For `booleans`, Number() returns 0 or 1.
 For `dates`, Number() returns milliseconds since January 1, 1970 00:00:00.
 
 For `strings`, Number() returns a number or NaN.
+
+<br/>
+<hr/>
+<br/>
+
+# Question & Challenge
+
+### Question 1
+
+Whats the result of this code !?
+
+```js
+console.log("john" / "doe") // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => NaN</p>
+
+</details>
+
+<hr>
+
+### Question 2
+
+Whats the result of this code !?
+
+```js
+console.log(12 / "john") // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => NaN</p>
+
+</details>
+
+<hr>
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+console.log(Math.floor("hello")) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => NaN</p>
+
+</details>
+
+<hr>
+
+### Question 4
+
+Whats the result of this code !?
+
+```js
+console.log(Boolean(NaN)) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => false</p>
+
+</details>
+
+<hr>
+
+### Question 5
+
+Whats the result of this code !?
+
+```js
+console.log(NaN + 1) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => NaN</p>
+</details>
+
+<hr>
+
+### Question 6
+
+Whats the result of this code !?
+
+```js
+console.log(NaN === NaN) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => false</p>
+  - Tips : NaN is not equal with anything
+</details>
