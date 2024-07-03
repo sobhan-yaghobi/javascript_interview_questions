@@ -22,6 +22,8 @@ but in this code
 
 # Question & Challenge
 
+<hr>
+
 ### Question 1
 
 Whats the result of this code !?
@@ -54,4 +56,148 @@ var a = b
 
 - Tips : because the `b variable` is a `global` we can access the b variable `outside` of IIFE scope
 
+</details>
+
+<hr>
+
+### Question 2
+
+Whats the result of this code !?
+
+```js
+var score = 20
+var result = 34
+;(function () {
+  result = value
+  var score = 90
+})
+
+console.log(result) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of result => undefined</p>
+  <p>the IIFE scope is like this =></p>
+
+```js
+;(function () {
+  var score // Is undefined for now
+  result = value
+  score = 90
+})()
+```
+
+</details>
+
+<hr>
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+var foo = (function () {
+  var foo = 2
+})()
+
+console.log(result) // Result =>
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of a => undefined</p>
+</details>
+
+<hr>
+
+### Question 4
+
+Whats the result of this code !?
+
+```js
+var result = (function () {
+  var name = "john"
+  return name
+})()
+
+console.log(result) // Result =>
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of a => john</p>
+</details>
+
+<hr>
+
+### Question 5
+
+Whats the result of this code !?
+
+```js
+const data = {}
+;(function (param) {
+  console.log(param === data) // Result => !?
+})(app)
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of a => true</p>
+</details>
+
+<hr>
+
+### Question 6
+
+Whats the result of this code !?
+
+```js
+;(function () {
+  var a = 5
+})()
+console.log(a) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of a => a is not defined</p>
+</details>
+
+<hr>
+
+### Question 7
+
+Whats the result of this code !?
+
+```js
+;-(function () {
+  console.log("hello world !") // Result => !?
+})()
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => hello world !</p>
+</details>
+
+<hr>
+
+### Question 8
+
+Whats the result of this code !?
+
+```js
+var app = {}
+;(function (param) {
+  param.name = "john"
+})(app)
+
+console.log(app.name) // Result =>
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => john</p>
 </details>
