@@ -22,8 +22,6 @@ but in this code
 
 # Question & Challenge
 
-<hr>
-
 ### Question 1
 
 Whats the result of this code !?
