@@ -58,6 +58,8 @@ console.log(false && false) // Result => false
 
 # Question & Challenge
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 1
 
 Whats the result of this code !?
@@ -75,6 +77,8 @@ console.log(result) // => !?
 
 <br/>
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 2
 
 Whats the result of this code !?
@@ -88,4 +92,86 @@ console.log(result) // => !?
 <details>
   <summary>See Answer</summary>
   <p>The Answer is => 2</p> 
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+var counter = 2
+if (false && ++counter) {
+}
+console.log(counter) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => 2</p> 
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 4
+
+Whats the result of this code !?
+
+```js
+const user = { id: 1, name: "john" }
+console.log(user && 10) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => 10</p> 
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 5
+
+Whats the result of this code !?
+
+```js
+console.log(NaN || Null) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => Error : Null is not defined </p> 
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 6
+
+Whats the result of this code !?
+
+```js
+var counter = 2
+if (false || ++counter) {
+}
+console.log(counter) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => 3</p> 
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 7
+
+Whats the result of this code !?
+
+```js
+console.log("0" || false) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => 0</p> 
 </details>
