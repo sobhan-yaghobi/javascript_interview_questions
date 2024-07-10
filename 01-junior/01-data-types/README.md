@@ -41,6 +41,8 @@
 
 # Question & Challenge
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 1
 
 Whats the result of this code !?
@@ -57,6 +59,8 @@ console.log(null == undefined) // Result => !?
 
 <hr>
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 2
 
 Whats the result of this code !?
@@ -72,6 +76,8 @@ console.log(null === undefined) // Result => !?
 
 <hr>
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 3
 
 Whats the result of this code !?
@@ -86,6 +92,8 @@ console.log(undefined && null) // Result => !?
 </details>
 
 <hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
 
 ### Question 4
 
@@ -103,6 +111,8 @@ console.log(++value) // Result => !?
 
 <hr>
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 5
 
 Whats the result of this code !?
@@ -118,6 +128,8 @@ console.log(!!null) // Result => !?
 
 <hr>
 
+<!-- !------------------------------------------------------------------------------------ -->
+
 ### Question 6
 
 Whats the result of this code !?
@@ -132,6 +144,8 @@ console.log(10 - null) // Result => !?
 </details>
 
 <hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
 
 ### Question 7
 
@@ -149,6 +163,8 @@ console.log(200 + undefined) // Result => !?
 </details>
 
 <hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
 
 ### Question 8
 
@@ -168,7 +184,9 @@ console.log(undefined) // Result => !?
 
 <hr>
 
-### Question 7
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 9
 
 Whats the result of this code !?
 
@@ -179,4 +197,132 @@ console.log(200 + undefined) // Result => !?
 <details>
   <summary>See Answer</summary>
   <p>The Answer of => NaN</p>
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 10
+
+Whats the result of this code !?
+
+```js
+var foo = function () {}
+console.log(typeof foo) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => function</p>
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 11
+
+Whats the result of this code !?
+
+```js
+console.log(typeof []) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => object</p>
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 12
+
+Whats the result of this code !?
+
+```js
+console.log(typeof {}) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => object</p>
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 13
+
+Whats the result of this code !?
+
+```js
+console.log(typeof Function) // Result => !?
+console.log(typeof Object) // Result => !?
+console.log(typeof Array) // Result => !?
+console.log(typeof String) // Result => !?
+console.log(typeof Number) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => function</p>
+  <p>The Answer of => function</p>
+  <p>The Answer of => function</p>
+  <p>The Answer of => function</p>
+  <p>The Answer of => function</p>
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 14
+
+Whats the result of this code !?
+
+```js
+console.log(typeof undefined) // Result => !?
+console.log(typeof null) // Result => !?
+console.log(typeof NaN) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => undefined</p>
+  <p>The Answer of => object</p>
+  <p>The Answer of => number</p>
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 15
+
+Whats the result of this code !?
+
+```js
+console.log(typeof Infinity) // Result => !?
+console.log(typeof -Infinity) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => number</p>
+  <p>The Answer of => number</p>
+
+- Tips : the Infinity is this =>
+
+```js
+console.log(4 / 0) // Result => Infinity
+```
+
+</details>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 16
+
+Whats the result of this code !?
+
+```js
+var id
+console.log(typeof id) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => undefined</p>
 </details>
