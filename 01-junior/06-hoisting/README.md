@@ -93,3 +93,148 @@ function logger() {
   <p>The Answer is => undefined</p> 
   Because the variable inside the logger scope is set after log and the variable remains constant (not going to top)
 </details>
+
+### Question 2
+
+Whats the result of this code !?
+
+```js
+var price = 1000
+;(function () {
+  console.log(price) // => !?
+  var price = 2000
+})()
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => undefined</p> 
+  Because the price variable is exist but written after console.log
+</details>
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+function logger() {
+  console.log(score) // => !?
+}
+logger()
+var score = 20
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => undefined</p> 
+</details>
+
+### Question 4
+
+Whats the result of this code !?
+
+```js
+display()
+
+var display = function () {
+  console.log("Hello World")
+}
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => Error : display is not a function</p> 
+</details>
+
+### Question 5
+
+Whats the result of this code !?
+
+```js
+logger()
+
+function logger() {
+  console.log("Hello World")
+}
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => Hello World</p> 
+</details>
+
+### Question 6
+
+Whats the result of this code !?
+
+```js
+logger()
+var logger = 20
+function logger() {
+  console.log("Executed Successfully")
+}
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => Executed Successfully</p> 
+  - Tips : First of all, functions hosted then variables
+</details>
+
+### Question 7
+
+Whats the result of this code !?
+
+```js
+console.log(score) // Result => !?
+var score = 20
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => undefined</p> 
+</details>
+
+### Question 8
+
+Whats the result of this code !?
+
+```js
+console.log(name) // Result => !?
+const name = "John"
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => Cannot access name before initialization</p> 
+</details>
+
+### Question 9
+
+Whats the result of this code !?
+
+```js
+console.log(name) // Result => !?
+let name = "John"
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => Cannot access name before initialization</p> 
+</details>
+
+### Question 10
+
+Whats the result of this code !?
+
+```js
+var total = num1 * num2
+var num1 = 20
+var num2 = 30
+console.log(total) // Result !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => NaN</p> 
+</details>
