@@ -91,3 +91,89 @@ console.log(number) // => !?
   <summary>See Answer</summary>
   <p>The Answer is => 12</p> 
 </details>
+
+### Question 3
+
+Whats the result of this code !?
+
+```js
+console.log(typeof {}) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => object</p> 
+</details>
+
+### Question 4
+
+Whats the result of this code !?
+
+```js
+var obj = { x: 60, y: 100 }
+console.log(Object.keys(obj)) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => ["x" , "y"]</p> 
+</details>
+
+### Question 5
+
+Whats the result of this code !?
+
+```js
+var obj = { x: 60, y: 100 }
+console.log(Object.values(obj)) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => [60 , 100]</p> 
+</details>
+
+### Question 6
+
+Whats the result of this code !?
+
+```js
+var obj = { x: 60, y: 100 }
+Object.freeze(obj)
+obj.c = 400
+console.log(obj.c) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => undefined</p> 
+</details>
+
+### Question 7
+
+Whats the result of this code !?
+
+```js
+var obj = { x: 60, y: 100 }
+Object.seal(obj)
+delete obg.x
+console.log(obj.x) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => 60</p> 
+</details>
+
+### Question 8
+
+Whats the result of this code !?
+
+```js
+console.log({} === {}) // => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer is => false</p> 
+</details>
