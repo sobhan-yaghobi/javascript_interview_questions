@@ -1415,3 +1415,29 @@ console.log(this.name) // Result => !?
 <hr>
 
 <!-- !------------------------------------------------------------------------------------ -->
+
+# Recourses
+
+1.  https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
+
+2.  https://github.com/kennymkchan/interview-questions-in-javascript
+
+3.  https://github.com/DopplerHQ/awesome-interview-questions#javascript
+
+4.  https://github.com/priya42bagde/JavaScriptCodingInterviewQuestions
+
+5.  https://github.com/devkodeio/javascript-interview-questions
+
+6.  https://github.com/30-seconds/30-seconds-of-interviews
+
+7.  https://github.com/transidai1705/javascript-interview-questions
+
+8.  https://github.com/ufocoder/javascript.interview
+
+9.  https://github.com/wiziple/technical-interview-questions-in-javascript
+
+10. https://github.com/RohitDhatrak/JavascriptQuestions
+
+11. https://github.com/kennymkchan/interview-questions-in-javascript
+
+12. https://github.com/sudheerj/reactjs-interview-questions
