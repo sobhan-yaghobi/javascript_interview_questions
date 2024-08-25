@@ -1257,3 +1257,161 @@ console.log(result) // Result => !?
 <hr>
 
 <!-- !------------------------------------------------------------------------------------ -->
+
+### Question 55
+
+For which value of x the results of the following logs are not the same .
+
+```js
+let x = undefined // !?
+console.log(x <= 100)
+console.log(!(x > 100))
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => NaN</p>
+
+</details>
+
+<hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 56
+
+Write a mul function which will work properly when invoked with following syntax .
+
+```js
+function mul() {
+  // !?
+}
+
+console.log(mul(2)(3)(4)) // Output => 24
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => </p>
+
+```js
+function mul(a) {
+  return function (b) {
+    return function (c) {
+      return a * b * c
+    }
+  }
+}
+```
+
+</details>
+
+<hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 57
+
+How many way exist to empty an array in JavaScript !?
+
+```js
+var array = [1, 2, 3, 4, 5, 6]
+
+// Ways !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => </p>
+
+```js
+// Way 1 =>
+array.length = 0
+
+// Way 2 =>
+array.slice(0, array.length)
+
+// Way 3 =>
+while (array.length) {
+  array.pop()
+}
+```
+
+</details>
+
+<hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 58
+
+Whats the result of this code !?
+
+```js
+var output = (function (x) {
+  delete x
+  return x
+})(0)
+
+console.log(output) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of => 0</p>
+
+`delete` is only work for `objects` and `arrays`
+
+</details>
+
+<hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 59
+
+Whats the result of this code !?
+
+```js
+const array = ["a", "b", "c"]
+delete array[1]
+
+const arrayLength = array.length
+
+console.log(arrayLength) // Result => !?
+console.log(array) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of arrayLength => 3</p>
+  <p>The Answer of array => ["a", undefined, "c"]</p>
+
+</details>
+
+<hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
+
+### Question 60
+
+Whats the result of this code !?
+
+```js
+function setName() {
+  this.name = "john"
+}
+
+setName()
+console.log(this.name) // Result => !?
+```
+
+<details>
+  <summary>See Answer</summary>
+  <p>The Answer of arrayLength => john</p>
+
+</details>
+
+<hr>
+
+<!-- !------------------------------------------------------------------------------------ -->
