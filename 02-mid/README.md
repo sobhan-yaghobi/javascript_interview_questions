@@ -59,3 +59,26 @@ console.log(product)
 </details>
 
 <hr/>
+
+# NaN
+
+## isNaN
+
+isNaN() method returns `true` if a <b>value</b> is Not-a-Number
+
+```js
+console.log(isNaN("helloWorld")) // true
+```
+
+## Number.isNaN
+
+Number.isNaN() method returns `true` if a <b>number</b> is Not-a-Number
+
+```js
+console.log(Number.isNaN("helloWorld")) // false
+console.log(Number.isNaN(Nan)) // true
+```
+
+You may have a question, how when we give a string value to this method, it returns true, this method is only for numbers that are not numbers.
+
+<hr/>
