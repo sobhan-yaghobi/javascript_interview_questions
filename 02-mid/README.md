@@ -674,3 +674,54 @@ the result 3 is => 3
 the result 4 is => 4
 
 </details>
+
+<hr/>
+
+# CallBack Hell
+
+## Bad Code
+
+this is a example of callBack Hells
+
+```js
+getData(function (a) {
+  getMoreData(a, function (b) {
+    getMoreData(b, function (c) {
+      getMoreData(c, function (d) {
+        getMoreData(d, function (e) {
+          getMoreData(e, function (f) {
+            // Codes ...
+          })
+        })
+      })
+    })
+  })
+})
+```
+
+and for fix this some ways exist
+
+## Solution 1
+
+```js
+async function getData(a) {
+  const b = await getMoreData(a)
+  const c = await getMoreData(b)
+  const d = await getMoreData(c)
+  const e = await getMoreData(d)
+  const f = await getMoreData(e)
+}
+```
+
+## Solution 2
+
+```js
+function getData(a) {
+  return getMoreData(a)
+    .then((b) => getMoreData(b))
+    .then((c) => getMoreData(c))
+    .then((d) => getMoreData(d))
+    .then((e) => getMoreData(e))
+    .then((f) => getMoreData(f))
+}
+```
